@@ -1,3 +1,11 @@
 .text {
     color: green;
 }
+
+.h1 {
+    color: blue;
+}
+
+.del {
+    color: indianred;
+}
