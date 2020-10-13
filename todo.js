@@ -11,6 +11,7 @@ inputItem.setAttribute('autofocus', 'true');
 label.append(document.createTextNode('Add new item: '), inputItem);
 const addButton = document.createElement('button');
 addButton.append(document.createTextNode('Add item'));
+
 const todoList = document.createElement('ol');
 root.append(title, label, addButton, todoList);
 addButton.onclick = function () {
